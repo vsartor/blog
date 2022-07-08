@@ -1,0 +1,75 @@
+${head}
+
+<body>
+    ${sidebar}
+
+    <div class="content">
+        <div class="posts">
+            <section class="posts">
+                <h1 class="section-title">Pinned Message</h1>
+
+                <h2 class="post-title"></h2>
+                <p class="post-meta">July 20th, 2022</p>
+                <div class="post-description">
+                    <p>
+                        Hey there! Welcome to my website!
+                    </p>
+                    <p>
+                        This is a place where I publish some random notes and (more rarely) something that might actually resemble a blog post.
+                    </p>
+                    <p>
+                        The topics may end up being quite varied: I just enjoy writing about random topics, and having a platform to publish them
+                        is a motivator for me. If you can get any enjoyment out of them, it's a plus!
+                    </p>
+                    <p>
+                        Check out some of the recently published posts below or something else from the navigation bar!
+                    </p>
+                </div>
+            </section>
+
+            <section class="posts">
+                <h1 class="section-title">Recent Notes</h1>
+
+                #{list:notes:3}
+
+                <h2 class="post-title">
+                    <a href="#{post-url}">#{post-title}</a>
+                </h2>
+                <p class="post-meta">
+                    #{post-date}
+                </p>
+                <div class="post-description">
+                    #{post-preview}
+                </div>
+                <div class="read-more">
+                    <a href="#{post-url}">🔗 Read the post!</a>
+                </div>
+
+                #{list:end}
+            </section>
+
+            <section class="posts">
+                <h1 class="section-title">Recent Essays</h1>
+
+                #{list:essays:3}
+
+                <h2 class="post-title">
+                    <a href="#{post-url}">#{post-title}</a>
+                </h2>
+                <p class="post-meta">
+                    #{post-date}
+                </p>
+                <div class="post-description">
+                    #{post-preview}
+                </div>
+                <div class="read-more">
+                    <a href="#{post-url}">🔗 Read the post!</a>
+                </div>
+
+                #{list:end}
+            </section>
+
+        </div>
+    </div>
+
+</body>

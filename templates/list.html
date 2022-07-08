@@ -1,0 +1,28 @@
+${head}
+
+<body>
+    ${sidebar}
+
+    <div class="content">
+        <div class="posts">
+            <section class="posts">
+                <h1 class="section-title">All @{title}</h1>
+
+                <ul>
+                    #{list:@{group}:999}
+
+                    <li>
+                        <span class="post-meta-list"> #{post-date}</span> - <span class="post-title-list"><a href="#{post-url}">#{post-title}</a></span>
+                        <br>
+                        <div class="post-line-list">
+                            #{post-line}
+                        </div>
+                    </li>
+    
+                    #{list:end}
+                </ul>
+            </section>
+        </div>
+    </div>
+
+</body>
