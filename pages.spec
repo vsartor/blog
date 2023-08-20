@@ -48,7 +48,7 @@ variables:
 
 [gochs]
 title: My static website generator
-date: 2022-10-23
+date: 2022-10-24
 author: Victhor
 content: gochs.md
 url: gochs.html

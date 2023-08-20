@@ -25,40 +25,19 @@ ${head}
             <section class="posts">
                 <h1 class="section-title">📌 Recent Posts</h1>
 
-                #{list:posts:3}
+                #{list:all:10}
 
                 <h2 class="post-title">
                     <a href="#{post-url}">#{post-title}</a>
                 </h2>
                 <p class="post-meta">
-                    #{post-date}
+                    #{post-date} <span class="post-group">【#{post-group}】</span>
                 </p>
                 <div class="post-description">
                     #{post-preview}
                 </div>
                 <div class="read-more">
                     <a href="#{post-url}">🔗 Read the post!</a>
-                </div>
-
-                #{list:end}
-            </section>
-
-            <section class="posts">
-                <h1 class="section-title">📌 Recent Notes</h1>
-
-                #{list:notes:3}
-
-                <h2 class="post-title">
-                    <a href="#{post-url}">#{post-title}</a>
-                </h2>
-                <p class="post-meta">
-                    #{post-date}
-                </p>
-                <div class="post-description">
-                    #{post-preview}
-                </div>
-                <div class="read-more">
-                    <a href="#{post-url}">🔗 Read the node!</a>
                 </div>
 
                 #{list:end}

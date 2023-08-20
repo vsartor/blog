@@ -72,7 +72,7 @@ pre code {
 }
 
 code {
-    font-size: 1.1em;
+    font-size: 1.0rem;
     background-color: #eef5ff;
 }
 
@@ -82,6 +82,7 @@ img {
     margin-right: auto;
     max-width: 100%;
     height: auto;
+    border: 1px solid black;
 }
 
 .img-desc {
@@ -239,6 +240,11 @@ em {
 
 .post {
     padding-bottom: 2em;
+}
+
+.post-group {
+    text-transform: uppercase;
+    color: #CC80BF;
 }
 
 .post-title {

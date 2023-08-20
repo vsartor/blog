@@ -11,8 +11,8 @@ And I also updated the CSS to go for a new look. I think it has a bit more of a 
 
 Before:
 
-![](@{base_url}/images/294_days_later_before.jpg)
+![Image of the blog before the changes](@{base_url}/images/294_days_later_before.jpg)
 
 After:
 
-![](@{base_url}/images/294_days_later_after.jpg)
+![Image of the blog after the changes](@{base_url}/images/294_days_later_after.jpg)
