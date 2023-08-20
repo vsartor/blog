@@ -1,9 +1,15 @@
 /* base stylesheet for vsartor.com */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html {
-    font-family: "Roboto", monospace;
+    font-family: "Space Mono", monospace;
     line-height: 1.15;
+    letter-spacing: 1px;
+}
+
+p b {
+    font-weight: 700;
 }
 
 body {
@@ -190,7 +196,7 @@ em {
 .nav-item a {
     background: transparent;
     margin-top: 1em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     font-size: 100%;
     /* color: #777; */
@@ -216,19 +222,19 @@ em {
 
 .section-title {
     text-transform: uppercase;
-    color: #aaa;
-    border-bottom: 1px solid #eee;
+    color: #666;
+    border-bottom: 1px solid #666;
     padding: 0.4em 0;
     font-size: 80%;
     font-weight: 500;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.4em;
 }
 
 .posts {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 40em;
+    max-width: 45em;
 }
 
 .post {

@@ -1,1 +1,1 @@
-I didn't write anything here for 98 days afraid of writing something bad. So I wrote something bad on purpose.
+I didn't write anything here for 98 days afraid of writing something bad. So I wrote something bad on purpose just to get it out of the way 🙆

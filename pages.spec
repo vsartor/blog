@@ -26,7 +26,7 @@ variables:
 
 [whoisvicthor]
 title: Who am I?
-date: 2022-10-23
+date: 2023-08-13
 author: Victhor Sartório
 content: whoisvicthor.md
 url: whoisvicthor.html
@@ -65,5 +65,16 @@ content: a_bad_post.md
 url: bad_post.html
 template: post
 group: posts
+variables:
+  title: #{post-title}
+
+[294_days_later]
+title: 294 days later
+date: 2023-08-13
+author: Victhor
+content: 294_days_later.md
+url: 294_days_later.html
+template: post
+group: notes
 variables:
   title: #{post-title}
