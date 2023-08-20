@@ -22,21 +22,13 @@ h2 {
 }
 
 h4 {
-    color: #537cb6;
-    font-size: 1.05em;
+    color: #4A94FF;
+    font-size: 1.2em;
     font-weight: bold;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-top: 1.5em;
-    margin-bottom: -1em;
-}
-
-h4::before {
-    content: "\25A0";
-    color: #537cb6;
-    font-weight: bold;
-    display: inline-block;
-    width: 1.1em;
+    margin-bottom: 1em;
 }
 
 blockquote {
@@ -48,7 +40,7 @@ blockquote {
 }
 
 p a {
-    color: #967ffd;
+    color: #4A94FF;
     text-decoration: underline;
 }
 
@@ -136,7 +128,7 @@ strong {
 }
 
 em {
-    color: #4A94FF;
+    color: #8976df;
 }
 
 
@@ -163,8 +155,10 @@ em {
 }
 
 .blog-title {
-    font-weight: 100;
-    color: #555;
+    font-weight: 300;
+    color: #777;
+    letter-spacing: 0.05em;
+    /* text-transform: uppercase; */
 }
 
 .blog-title a {
@@ -174,7 +168,7 @@ em {
 }
 
 .blog-title a:hover {
-    color: #777;
+    color: #AAA;
 }
 
 .blog-tagline {
@@ -189,21 +183,25 @@ em {
     list-style: none;
 }
 
+.nav-item {
+    display: inline;
+}
+
 .nav-item a {
-    display: inline-block;
     background: transparent;
-    border: 2px solid #8fbeff;
     margin-top: 1em;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-size: 85%;
+    font-size: 100%;
+    /* color: #777; */
     color: #4A94FF;
+    padding: 0em .4em 0em .4em;
 }
 
 .nav-item a:hover {
-    border: 2px solid #4A94FF;
+    /* color: #777; */
+    color: #70aafb;
 }
-
 
 /*
  * CONTENT
@@ -268,7 +266,7 @@ em {
 }
 
 .read-more a {
-    color: #967ffd;
+    color: #4A94FF;
     text-decoration: none;
 }
 
@@ -317,8 +315,12 @@ em {
         width: max(calc(75% - 6em), calc(100% - 20em - 6em));
     }
     .header {
-        margin: 80% 2em 0;
+        margin: 75% 2em 0;
         text-align: right;
+    }
+    .blog-tagline {
+        padding-top: 0.5em;
+        padding-bottom: 1em;
     }
     .sidebar {
         position: fixed;

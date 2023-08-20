@@ -17,16 +17,16 @@ variables:
   title: Notes
   group: notes
 
-[essays]
+[posts]
 template: list
-url: essays.html
+url: posts.html
 variables:
-  title: Essays
-  group: essays
+  title: posts
+  group: posts
 
 [whoisvicthor]
 title: Who am I?
-date: 2022-05-21
+date: 2022-10-23
 author: Victhor Sartório
 content: whoisvicthor.md
 url: whoisvicthor.html
@@ -35,46 +35,24 @@ unlisted: true
 variables:
   title: #{post-title}
 
-[alphanote]
-title: The first note
-date: 2077-07-28
-author: Vitin
-content: betanote.md
-url: alphanote.html
+[note_on_notes]
+title: A note on notes
+date: 2022-10-23
+author: Victhor
+content: note_on_notes.md
+url: notes.html
 template: post
 group: notes
 variables:
   title: #{post-title}
 
-[betanote]
-title: The second note
-date: 2090-07-28
-author: Vitin
-content: betanote.md
-url: betanote.html
+[gochs]
+title: My static website generator
+date: 2022-10-23
+author: Victhor
+content: gochs.md
+url: gochs.html
 template: post
-group: notes
-variables:
-  title: #{post-title}
-
-[alphapost]
-title: The first essay!
-date: 2021-05-25
-author: Victhor Sartório
-content: betanote.md
-url: alphapost.html
-template: post
-group: essays
-variables:
-  title: #{post-title}
-
-[betapost]
-title: The second essay!
-date: 2022-05-20
-author: Victhor Sartório
-content: betanote.md
-url: betapost.html
-template: post
-group: essays
+group: posts
 variables:
   title: #{post-title}

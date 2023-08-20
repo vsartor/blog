@@ -1,0 +1,1 @@
+I present the static website generator I developed to create this website.

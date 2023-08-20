@@ -1,0 +1,1 @@
+A note about *notes*, and why they are different than *posts*.

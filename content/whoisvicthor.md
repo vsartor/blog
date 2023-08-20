@@ -1,17 +1,9 @@
 Hey there!
 
-My name is *Victhor Sartório*. I was born in a *Brazilian coastal city called Vila Velha* ("Old Village" in Portuguese - current pop. 500k), though I currently live in beautiful *Rio de Janeiro*.
+My name is *Victhor Sartório*. I was born in *Vila Velha in Espírito Santo, Brazil* ("Old Village" in Portuguese - current pop. 500k), though I currently live in Rio de Janeiro 🏞
 
-I wanted to write more and expose some of my thoughts to the world, so I created this blog! While I may be biased towards specific topics, there is no exact intended theme for this website.
+I'm *vegetarian*. I'm having fun *learning the piano*. I enjoy *being bad at chess* and going to the *beach*. I'm putting effort into *note-taking*. I enjoy *writing*, which is why I decided to create this blog. I also like most things related to *data and technology*.
 
-I'm *vegan*, recently developed an obsession with *note-taking*, love *going to the beach*, and like most things related to *technology and data*, besides dabbling with other interests now and then :)
+I currently work as a *data scientist* at the Brazilian gaming unicorn [Wildlife Studios](https://wildlifestudios.com/), working with Demand-Side Real Time Bidding for mobile advertising. I'm super happy building complex systems with challenging requirements with a bunch of fun, caring, and brilliant people.
 
-As for my career:
-
-I work as a *data scientist* but I like to play with software development on my side projects. Although I started programming quite a few years before college, I eventually decided to study *Statistics at the National School of Statistical Sciences* for my undergrad and followed that up with an *MSc in Statistics from the Federal University of Rio de Janeiro*. I really like stats 🤓
-
-After my MSc, I dropped my plans to follow an academic career and joined the technology branch of the Brazilian media conglomerate: *Globo.com*. There I worked in the Big Data department as a Data Scientist developing machine learning products for advertising, helping the company increase the value of its broadcast and digital advertising portfolio.
-
-I now work at the Brazilian mobile gaming unicorn *Wildlife Studios*, still working with digital advertising, currently focused on using data science to optimize real-time bidding. I'm super happy to be taking on some tough challenges with the help of some brilliant people.
-
-If you want to talk or hear more, feel free to reach out to me! My e-mail is victhor `at` this domain.
+If you want to talk or hear more about me, feel free to reach out; my e-mail is victhor `at` this domain.

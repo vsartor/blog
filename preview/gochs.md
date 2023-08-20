@@ -1,0 +1,1 @@
+I built a static website generator called `gochs` to build this site. The page you're on right now is an output from this program. In this blog post I talk about what it is and provide an overview on how it works.
