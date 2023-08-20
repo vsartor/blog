@@ -56,3 +56,14 @@ template: post
 group: posts
 variables:
   title: #{post-title}
+
+[a_bad_post]
+title: Alas, a (bad) post
+date: 2023-01-29
+author: Victhor
+content: a_bad_post.md
+url: bad_post.html
+template: post
+group: posts
+variables:
+  title: #{post-title}
