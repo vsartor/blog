@@ -192,6 +192,7 @@ em {
 
 .nav-item {
     display: inline;
+    white-space: nowrap;
 }
 
 .nav-item a {
