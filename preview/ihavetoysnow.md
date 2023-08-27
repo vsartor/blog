@@ -1,0 +1,1 @@
+I added a new sidebar section for toys! Created it to accomodate a silly beta comparison tool I created to start learning a bit more of JavaScript. Named it toy because there's no ambition of making it super stable, made just for fun.

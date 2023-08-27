@@ -21,7 +21,7 @@ variables:
 template: list
 url: posts.html
 variables:
-  title: posts
+  title: Posts
   group: posts
 
 [whoisvicthor]
@@ -74,6 +74,29 @@ date: 2023-08-13
 author: Victhor
 content: 294_days_later.md
 url: 294_days_later.html
+template: post
+group: notes
+variables:
+  title: #{post-title}
+
+[toylist]
+template: toy_list
+url: toys.html
+variables:
+  title: Toys
+
+[betacomparisontoy]
+template: betacomparisontoy
+url: betacomparisontoy.html
+variables:
+  title: Beta Comparison Toy
+
+[ihavetoysnow]
+title: I have toys now!
+date: 2023-08-27
+author: Victhor
+content: ihavetoysnow.md
+url: ihavetoysnow.html
 template: post
 group: notes
 variables:

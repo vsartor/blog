@@ -1,0 +1,52 @@
+${head}
+
+<body>
+    ${sidebar}
+
+    <main class="content">
+        <div class="posts">
+            <h1>📌 Beta Comparison Toy</h1>
+
+            <p>
+                This is a toy to compare two beta distributions. It's not meant to be used for anything serious, as both the plotting and beta calculations were implemented naively in JavaScript as a learning exercise.
+            </p>
+
+            <div class="input_fields">
+                🟥 <b>Baseline:</b>
+                <br>
+                <span class="input_item">
+                    <label for="n1">Total:</label>
+                    <input type="text" id="n1" value="40000">
+                </span>
+                <span class="input_item" style="margin-left: 1em;">
+                    <label for="pos1">Conversions:</label>
+                    <input type="text" id="pos1" value="200">
+                </span>
+                <br>
+                🟩 <b>Alternative:</b>
+                <br>
+                <span class="input_item">
+                    <label for="n2">Total:</label>
+                    <input type="text" id="n2" value="16000">
+                </span>
+                <span class="input_item" style="margin-left: 1em;">
+                    <label for="pos2">Conversions:</label>
+                    <input type="text" id="pos2" value="88">
+                </span>
+            </div>
+            <p>
+                <button onclick="compareBetaButton()">Compare</button>
+                <button onclick="reset()">Reset</button>
+            </p>
+
+            <hr>
+            <p>
+                <b>Pr(Alternative > Baseline) =</b> <span id="pr_a_gt_b">???</span>
+            </p>
+        </div>
+            
+        <canvas id="canvas" width="1200" height="600" style="margin: 1em 1em 1em 1em;"></canvas>
+        <script src="@{base_url}/scripts/betatoy.js"></script>
+    </main>
+</body>
+</html>
